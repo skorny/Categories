@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>data/_json_categories.txt</file>
+        <file>images/arrow_bottom.png</file>
+        <file>images/arrow_right.png</file>
+    </qresource>
+</RCC>

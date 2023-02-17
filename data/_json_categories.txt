@@ -1,0 +1,85 @@
+{
+    "categories": [
+      {
+        "name": "Molecule Man",
+        "powers":
+          {
+            "Radiation": "resistance",
+            "Turning": "tiny",
+            "Radiation blast": true,
+            "Coast": 1600
+          }
+
+      },
+      {
+        "name": "Madame Uppercut",
+        "powers":
+          {
+            "Coast": "Million tonne punch",
+            "Health": "Damage resistance",
+            "Feature": "Superhuman reflexes"
+          }
+      },
+      {
+        "name": "Eternal Flame",
+        "powers":
+          {
+            "Срок годности": "Immortality",
+            "Температура эксплуатации": "Heat Immunity",
+            "Teleportation км": 1200,
+            "Interdimensional travel": "да"
+          }
+      },
+      {
+      "name": "Eternal Flame",
+      "powers":
+        {
+        "VectorizerTypeParam": "i0",
+        "TextGeneralizationParam": "i2",
+        "BackBufferCache": "i0",
+        "UseAntialiasing": "i2",
+        "MSVportRegenBase": "i0",
+        "PSVportRegenBase": "i0",
+        "OptimizeLWDParam": "i0",
+        "OptimizePointsParam": "i0",
+        "UseSoftwareRenderer": "i0",
+        "SystemMemory": "i0",
+        "TextureMemory": "i1",
+        "AuxBuffer": "i2",
+        "TextureCacheThreshold": "R0.5",
+        "EnhMetaFile": "i0",
+        "DIBSection": "i1",
+        "PrintPreviewMode": "i0",
+        "MinMipMapLevelDimensionParam": "i512",
+        "LineHighlightStyle1": "i1",
+        "FaceHighlightStyle1": "i1",
+        "LineHighlightStyle0": "i1",
+        "FaceHighlightStyle0": "i1",
+        "UseBitmapFonts": "i1",
+        "MaxBitmapFontSize": "i64",
+        "DirectXVersionParam": "i0"
+        }
+       },
+       {
+       "name": "FlatShaded",
+       "powers":
+       {
+        "Shineness": "R30.0",
+        "Enabled0": "i1",
+        "Diffuse0": "W0xFF808080",
+        "Specular0": "W0x00000000",
+        "Ambient0": "W0xFF4D4D4D",
+        "DirectionX0": "R-1.0",
+        "DirectionY0": "R1.0",
+        "DirectionZ0": "R2.0",
+        "Enabled1": "i0",
+        "Diffuse1": "W0xFF808080",
+        "Specular1": "W0x00000000",
+        "Ambient1": "W0xFF4D4D4D",
+        "DirectionX1": "R-1.0",
+        "DirectionY1": "R1.0",
+        "DirectionZ1": "R2.0"
+        }
+        }
+  ]
+}
