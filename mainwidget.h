@@ -3,6 +3,7 @@
 
 #include <QWidget>
 
+class ExpandedListControl;
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWidget; }
 QT_END_NAMESPACE
@@ -17,5 +18,6 @@ public:
 
 private:
     Ui::MainWidget *ui;
+    ExpandedListControl *m_elem = nullptr;
 };
 #endif // MAINWIDGET_H

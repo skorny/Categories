@@ -12,18 +12,19 @@ MainWidget::MainWidget(QWidget *parent)
     , ui(new Ui::MainWidget)
 {
     ui->setupUi(this);
-    auto elem = new (ExpandedListControl);
-    ui->verticalLayout_2->replaceWidget(ui->widget, elem);
+    m_elem = new (ExpandedListControl);
+    ui->verticalLayout_2->replaceWidget(ui->widget, m_elem);
 
     QFile file(":/data/_json_categories.txt");
     file.open(QIODevice::ReadOnly);
     QByteArray arr = file.readAll();
-    if( !elem->set_categories(arr))
-        qDebug() << elem->getLastError();
+    if( !m_elem->set_categories(arr))
+        qDebug() << m_elem->getLastError();
 }
 
 MainWidget::~MainWidget()
 {
+    delete m_elem;
     delete ui;
 }
 
